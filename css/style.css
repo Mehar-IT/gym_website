@@ -5,13 +5,13 @@ body {
     background: url(/images/gym.jpg);
     background-size: cover;
     font-family: 'Baloo Bhai 2', cursive;
-    height: 1200px;
+    /* height: 1200px; */
 }
 
 .header {
-    /* background-color: rgb(29, 28, 28); */
+    background-color: rgb(29, 28, 28);
     width: 100%;
-    height: 50px;
+    height: 60px;
     position: fixed;
     top: 0px;
 }
@@ -121,4 +121,17 @@ body {
     height: 35px;
     font-size: 20px;
     font-family: 'Baloo Bhai 2', cursive;
+}
+footer{
+  height: 50px;
+  width: 100%;
+  margin-top: 50%;
+  text-align: center;
+  background-color: rgb(29, 28, 28);
+  position: fixed; 
+  bottom: 0px; 
+}
+.footer{
+    width: 30%;
+    margin: 10px auto;
 }
